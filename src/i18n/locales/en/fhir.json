@@ -1,0 +1,398 @@
+{
+  "system": "System",
+  "value": "Value",
+  "use": "Use",
+  "purpose": "Purpose",
+  "resourceArray": {
+    "add": "Add {{name}}",
+    "remove": "Remove {{name}}"
+  },
+  "udiDeviceIdentifier": {
+    "deviceIdentifier": {
+      "label": "Device Identifier"
+    },
+    "issuer": {
+      "label": "Issuer"
+    },
+    "jurisdiction": {
+      "label": "Jurisdiction"
+    }
+  },
+  "manufacturer": {
+    "label": "Manufacturer",
+    "type": {
+      "string": "String",
+      "Reference": "Reference"
+    }
+  },
+  "classification": {
+    "type": {
+      "528391": "Blood Pressure Cuff",
+      "528404": "Body Composition Analyzer",
+      "528425": "Cardiovascular Device",
+      "528402": "Coagulation meter",
+      "528409": "Continuous Glucose Monitor",
+      "528390": "Electro cardiograph",
+      "528457": "Generic 20601 Device",
+      "528401": "Glucose Monitor",
+      "528455": "Independent Activity/Living Hub",
+      "528403": "Insulin Pump",
+      "528405": "Peak Flow meter",
+      "528388": "Pulse Oximeter",
+      "528397": "Respiration rate",
+      "528408": "Sleep Apnea Breathing Equipment",
+      "528426": "Strength Equipment",
+      "528392": "Thermometer",
+      "528399": "Weight Scale",
+      "38017": "Dry salt inhalation therapy device",
+      "38663": "Flexible video nephroscope",
+      "42347": "Dental implant, endosseous, partially-embedded",
+      "46352": "Bare-metal intracranial vascular stent",
+      "47264": "Dual-chamber implantable pacemaker, demand",
+      "62163": "Intrauterine cannula, reusable",
+      "62260": "Air-conduction hearing aid acoustic tube",
+      "62423": "Spinal cord/peripheral nerve implantable analgesic electrical stimulation system lead, wired connection",
+      "62414": "Blue-light phototherapy lamp, home-use",
+      "64587": "Uncoated knee femur prosthesis, ceramic",
+      "64992": "ADAMTS13 activity IVD, kit, chemiluminescent immunoassay"
+    }
+  },
+  "property": {
+    "type": {
+      "label": "Type",
+      "height": "Height",
+      "width": "Width",
+      "depth": "Depth",
+      "weight": "Weight",
+      "nominalVolume": "Nominal Volume",
+      "externalDiameter": "External Diameter",
+      "shape": "Shape",
+      "imprint": "Imprint",
+      "color": "Color",
+      "scoring": "Scoring",
+      "attachment": "Attachment"
+    },
+    "unit": "Unit",
+    "value": "Value"
+  },
+  "count": "Count",
+  "reference": "Reference",
+  "material": {
+    "substance": "Substance",
+    "alternate": {
+      "label": "Alternate",
+      "description": "Indicates an alternative material of the device"
+    },
+    "allergenicIndicator": {
+      "label": "Allergenic Indicator",
+      "description": "Whether the substance is a known or suspected allergen"
+    }
+  },
+  "device": {
+    "name": "Device",
+    "deviceData": "Parametes",
+    "deviceCode": "Device code",
+    "status": {
+      "label": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "enteredInError": "Entered in error"
+    },
+    "availabilityStatus": {
+      "label": "Availability Status",
+      "lost": "Lost",
+      "damaged": "Damaged",
+      "destroyed": "Destroyed",
+      "available": "Available"
+    },
+    "category": {
+      "name": "Category",
+      "type": {
+        "active": "Active",
+        "communicating": "Communicating",
+        "dme": "Durable Medical Equipment",
+        "home-use": "Maintenance",
+        "implantable": "Implantable",
+        "in-vitro": "In vitro",
+        "point-of-care": "Point of Care",
+        "single-use": "Single Use",
+        "reusable": "Reusable",
+        "software": "Software"
+      }
+    },
+    "location": "Location",
+    "parent": "Parent"
+  },
+  "manufactureDate": "Manufacture date",
+  "expirationDate": "Expiration date",
+  "lotNumber": "Lot number",
+  "serialNumber": "Serial Number",
+  "displayName": "Display Name",
+  "partNumber": "Part number",
+  "deviceName": {
+    "type": {
+      "placeholder": "Type",
+      "registeredName": "Registered name",
+      "userFriendlyName": "User friendly name",
+      "patientReportedName": "Patient reported name"
+    },
+    "name": "Device name"
+  },
+  "modelNumber": "Model number",
+  "replaces": "Replaces",
+  "identifier": {
+    "assigner": "Issuer",
+    "periodStart": "Date of issue",
+    "periodEnd": "Date of expiry",
+    "type": {
+      "CI": "Citizen Identification",
+      "BA": "Bank Account",
+      "SI": "Social Insurance",
+      "DL": "Driver's license number",
+      "PPN": "Passport number",
+      "BRN": "Breed Registry Number",
+      "MR": "Medical record number",
+      "MCN": "Microchip Number",
+      "EN": "Employer number",
+      "TAX": "Tax ID number",
+      "NIIP": "National Insurance Payor Identifier (Payor)",
+      "PRN": "Provider number",
+      "MD": "Medical License number",
+      "DR": "Donor Registration Number",
+      "ACSN": "Accession ID",
+      "UDI": "Universal Device Identifier",
+      "SNO": "Serial Number",
+      "SB": "Social Beneficiary Identifier",
+      "PLAC": "Placer Identifier",
+      "FILL": "Filler Identifier",
+      "JHN": "Jurisdictional health number"
+    }
+  },
+  "deviceRequest": {
+    "status": {
+      "label": "Status",
+      "draft": "Draft",
+      "active": "Active",
+      "onHold": "On hold",
+      "revoked": "Revoked",
+      "complete": "Complete",
+      "enteredInError": "Entered in error",
+      "unknown": "Unknown"
+    },
+    "intent": {
+      "label": "Intent",
+      "proposal": "Proposal",
+      "plan": "Plan",
+      "directive": "Directive",
+      "order": "Order",
+      "originalOrder": "Original Order",
+      "reflexOrder": "Reflex Order",
+      "fillerOrder": "Filler Order",
+      "instanceOrder": "Instance Order",
+      "option": "Option"
+    },
+    "priority": {
+      "label": "Priority",
+      "routine": "Routine",
+      "urgent": "Urgent",
+      "asap": "ASAP",
+      "stat": "STAT"
+    },
+    "code": {
+      "label": "Device Requested",
+      "resource": {
+        "label": "Type",
+        "device": "Device",
+        "deviceDefinition": "Device Definition"
+      },
+      "deviceName": "Device Name"
+    },
+    "doNotPerform": "Do not perform ?",
+    "quantity": "Quantity",
+    "asNeeded": "Use only when needed ?",
+    "authoredOn": "Authored On",
+    "reason": "Reason",
+    "occurrence": {
+      "label": "Occurrence",
+      "type": {
+        "label": "Type",
+        "dateTime": "Date Time",
+        "period": "Period",
+        "timing": "Timing"
+      },
+      "timing": {
+        "isRepeat": "Repeat ?",
+        "label": "Repeat every",
+        "s": "Second",
+        "min": "Minute",
+        "h": "Hour",
+        "d": "Day",
+        "wk": "Week",
+        "mo": "Month",
+        "a": "Year"
+      }
+    },
+    "requester": {
+      "label": "Requester",
+      "name": "Name",
+      "resource": {
+        "label": "Who/what submitted the device request",
+        "device": "Device",
+        "practitioner": "Practitioner",
+        "organization": "Organization"
+      }
+    },
+    "basedOn": {
+      "label": "Based On",
+      "desc": "Plan/proposal/order fulfilled by this request."
+    }
+  },
+  "humanName": {
+    "prefix": "Prefix",
+    "family": "Family Name",
+    "given": "Given Name",
+    "suffix": "Suffix",
+    "type": {
+      "usual": "Common Name",
+      "official": "Legal Name",
+      "temp": "Temporary Name",
+      "nickname": "Nickname",
+      "anonymous": "Anonymous Name",
+      "old": "Obsolete Name",
+      "maiden": "Maiden Name"
+    }
+  },
+  "telecom": {
+    "periodStart": "Use from",
+    "periodEnd": "to",
+    "system": {
+      "phone": "Phone",
+      "fax": "Fax",
+      "email": "Email",
+      "pager": "Pager",
+      "url": "URL",
+      "sms": "SMS",
+      "other": "Other"
+    },
+    "use": {
+      "home": "Home",
+      "work": "Work",
+      "temp": "Temp",
+      "old": "Old",
+      "sms": "Sms",
+      "mobile": "Mobile"
+    },
+    "getAddressOfUnit": "Get the address of the unit"
+  },
+  "address": {
+    "purpose": {
+      "name": "Purpose's name",
+      "permanentResidence": "Permanent Residence",
+      "birthPlace": "Birthplace",
+      "home": "Home",
+      "work": "Work",
+      "temp": "Temp",
+      "old": "Old",
+      "billing": "Billing"
+    },
+    "type": {
+      "name": "Type's name",
+      "postal": "Postal",
+      "physical": "Physical",
+      "both": "Both"
+    },
+    "province": "Province",
+    "district": "District",
+    "details": "Address",
+    "ward": "Ward",
+    "street": "Street",
+    "text": "Detailed address",
+    "postalCode": "Postal code"
+  },
+  "contact": {
+    "name": "Contact name",
+    "periodStart": "From",
+    "periodEnd": "To",
+    "managingOrg": "Management Organization",
+    "managingOrgDesc": "The organization responsible for providing and maintaining the location.",
+    "purpose": {
+      "BILL": "Billing",
+      "ADMIN": "Administrative",
+      "HR": "Human Resource",
+      "PAYOR": "Payor",
+      "PATINF": "Patient",
+      "PRESS": "Press"
+    }
+  },
+  "communication": {
+    "preferred": "Preferred"
+  },
+  "qualification": {
+    "type": {
+      "PN": "Advanced Practice Nurse",
+      "AAS": "Associate of Applied Science",
+      "AA": "Associate of Arts",
+      "ABA": "Associate of Business Administration",
+      "AE": "Associate of Engineering",
+      "AS": "Associate of Science",
+      "BA": "Bachelor of Arts",
+      "BBA": "Bachelor of Business Administration",
+      "BE": "Bachelor of Engineering",
+      "BFA": "Bachelor of Fine Arts",
+      "BN": "Bachelor of Nursing",
+      "BS": "Bachelor of Science",
+      "BSL": "Bachelor of Science - Law",
+      "BSN": "Bachelor on Science - Nursing",
+      "BT": "Bachelor of Theology",
+      "CER": "Certificate",
+      "CANP": "Certified Adult Nurse Practitioner",
+      "CMA": "Certified Medical Assistant",
+      "CNP": "Certified Nurse Practitioner",
+      "CNM": "Certified Nurse Midwife",
+      "CRN": "Certified Registered Nurse",
+      "CNS": "Certified Nurse Specialist",
+      "CPNP": "Certified Pediatric Nurse Practitioner",
+      "CTR": "Certified Tumor Registrar",
+      "DIP": "Diploma",
+      "DBA": "Doctor of Business Administration",
+      "DED": "Doctor of Education",
+      "PharmD": "Doctor of Pharmacy",
+      "PHE": "Doctor of Engineering",
+      "PHD": "Doctor of Philosophy",
+      "PHS": "Doctor of Science",
+      "MD": "Doctor of Medicine",
+      "DO": "Doctor of Osteopathy",
+      "EMT": "Emergency Medical Technician",
+      "EMTP": "Emergency Medical Technician - Paramedic",
+      "FPNP": "Family Practice Nurse Practitioner",
+      "HS": "High School Graduate",
+      "JD": "Juris Doctor",
+      "MA": "Master of Arts",
+      "MBA": "Master of Business Administration",
+      "MCE": "Master of Civil Engineering",
+      "MDI": "Master of Divinity",
+      "MED": "Master of Education",
+      "MEE": "Master of Electrical Engineering",
+      "ME": "Master of Engineering",
+      "MFA": "Master of Fine Arts",
+      "MME": "Master of Mechanical Engineering",
+      "MS": "Master of Science",
+      "MSL": "Master of Science - Law",
+      "MSN": "Master of Science - Nursing",
+      "MTH": "Master of Theology",
+      "MDA": "Medical Assistant",
+      "MT": "Medical Technician",
+      "NG": "Non-Graduate",
+      "NP": "Nurse Practitioner",
+      "PA": "Physician Assistant",
+      "RMA": "Registered Medical Assistant",
+      "RN": "Registered Nurse",
+      "RPH": "Registered Pharmacist",
+      "SEC": "Secretarial Certificate",
+      "TS": "Trade School Graduate"
+    },
+    "periodStart": "Date of issue",
+    "periodEnd": "Expiration"
+  },
+  "owner": "Owner"
+}

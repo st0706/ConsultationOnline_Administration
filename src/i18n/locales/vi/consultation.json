@@ -1,0 +1,166 @@
+{
+  "appointment": {
+    "content": "Nội dung cuộc họp",
+    "consultationContent": "Nội dung hội chẩn",
+    "administrativeSection": "I. Phần hành chính",
+    "diseaseProgression": "II. Diễn biến bệnh",
+    "name": "Cuộc họp",
+    "info": "Thông tin cuộc họp",
+    "general": "Thông tin chung về cuộc họp",
+    "nameLabel": "Tên cuộc họp",
+    "conclusion": {
+      "name": "Kết luận",
+      "content": "Nội dung",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày chỉnh sửa",
+      "createdBy": "Tạo bởi"
+    },
+    "status": {
+      "name": "Trạng thái cuộc họp",
+      "proposed": "Được đề xuất",
+      "fulfilled": "Đã hoàn thành",
+      "cancelled": "Đã hủy",
+      "upcoming": "Sắp diễn ra",
+      "inProgress": "Đang diễn ra",
+      "approvedLevel1": "Đã phê duyệt mức 1",
+      "approvedLevel2": "Đã phê duyệt mức 2"
+    },
+    "specialty": "Chuyên môn bác sĩ",
+    "appointmentType": {
+      "name": "Loại cuộc họp",
+      "routine": "Cuộc hẹn định kỳ",
+      "walkin": "Một cuộc thăm khám không lên lịch trước",
+      "checkup": "Một cuộc kiểm tra định kỳ",
+      "followup": "Một cuộc thăm khám tiếp theo từ cuộc hẹn trước",
+      "emergency": "Cuộc hẹn khẩn cấp"
+    },
+    "priority": {
+      "name": "Độ ưu tiên",
+      "ASAP": "Càng sớm càng tốt",
+      "callback": "Ngay sau khi có kết quả",
+      "elective": "Theo ý muốn",
+      "emergency": "Khẩn cấp",
+      "preop": "Trước phẫu thuật",
+      "needed": "Khi cần thiết",
+      "routine": "Định kỳ",
+      "rushReporting": "Báo cáo gấp",
+      "stat": "Với mức độ ưu tiên cao nhất",
+      "timingCritical": "Thời gian quan trọng",
+      "directed": "Sử dụng theo chỉ dẫn",
+      "urgent": "Cấp bách",
+      "scheduling": "Gọi lại để lên lịch",
+      "CSR": "Liên hệ với người nhận để sắp xếp lịch"
+    },
+    "reason": {
+      "name": "Lý do"
+    },
+    "start": "Thời gian bắt đầu",
+    "end": "Thời gian kết thúc",
+    "created": "Thời gian khởi tạo",
+    "supportingInformation": "Thông tin hỗ trợ cuộc họp",
+    "subject": {
+      "name": "Họ tên bệnh nhân",
+      "birthDate": "Ngày sinh",
+      "gender": "Giới tính",
+      "ethnic": "Dân tộc",
+      "nationality": "Quốc tịch",
+      "occupation": "Nghề nghiệp",
+      "admissionNumber": "Số vào viện",
+      "insuranceNumber": "Số thẻ BHYT",
+      "admissionTime": "Thời gian vào viện",
+      "admissionDepartment": "Tại khoa",
+      "requestConsultation": "Yêu cầu hội chẩn",
+      "summaryMedicalHistory": "Tóm tắt tiền sử bệnh",
+      "conditionAdmission": "Tình trạng lúc vào viện",
+      "diagnose": "Chẩn đoán: ( tuyến dưới, khoa khám bệnh, khoa điều trị)",
+      "summary": "Tóm tắt diễn biến bệnh, quá trình điều trị, quá trình chăm sóc ở khoa"
+    },
+    "participant": {
+      "name": "Người tham gia",
+      "labelName": "Tên người tham gia",
+      "type": {
+        "name": "Vai trò người tham gia",
+        "ADMIN": "Chủ toạ",
+        "participant": "Người tham gia",
+        "secretary": "Thư ký"
+      },
+      "periodStart": "Thời gian bắt đầu",
+      "periodEnd": " Thời gian kết thúc (dự kiến)",
+      "actor": "Người tham dự cuộc họp",
+      "require": "Có bắt buộc tham gia hay không?",
+      "required": "Bắt buộc tham gia",
+      "notRequired": "Không bắt buộc tham gia",
+      "status": "Trạng thái tham gia",
+      "accepted": "Chấp nhận",
+      "declined": "Từ chối",
+      "pending": "Chưa xác nhận",
+      "needs-action": "Cần được xử lí"
+    },
+    "description": "Mô tả về cuộc họp",
+    "note": "Ghi chú",
+    "virtualService": {
+      "name": "Chi tiết kết nối đến cuộc họp",
+      "channelType": {
+        "name": "Loại cuộc họp",
+        "zoom": "Zoom",
+        "ms-teams": "Ms-teams",
+        "whatsapp": "Whatsapp"
+      },
+      "additionalInfo": "Địa chỉ kết nối thay thế",
+      "maxParticipants": "Giới hạn người tham gia",
+      "sessionKey": "Khóa phiên"
+    },
+    "list": "Danh sách người tham gia",
+    "documentTime": "Thời gian",
+    "nameFile": "Tên file",
+    "approvedLevel1": {
+      "label": "Phê duyệt",
+      "description": "Phê duyệt lần 1"
+    },
+    "approvedLevel2": {
+      "label": "Phê duyệt",
+      "description": "Phê duyệt lần 2"
+    },
+    "upcoming": {
+      "label": "Sắp diễn ra",
+      "description": "Cuộc hội chẩn sẽ sớm bắt đầu"
+    },
+    "inProgress": {
+      "label": "Đang diễn ra",
+      "description": "Cuộc hội chẩn đang diễn ra"
+    },
+    "fulfilled": {
+      "label": "Đã hoàn thành",
+      "description": "Cuộc hội chẩn đã hoàn thành"
+    },
+    "cancelled": {
+      "label": "Đã huỷ",
+      "description": "Cuộc hội chẩn đã bị huỷ"
+    },
+    "proposed": {
+      "label": "Khởi tạo",
+      "description": "Khởi tạo cuộc hội chẩn"
+    },
+    "role": {
+      "appointment.admin": "Quản trị viên",
+      "appointment.approve_level_1": "Người phê duyệt cấp 1",
+      "appointment.approve_level_2": "Người phê duyệt cấp 2",
+      "appointment.moderator": "Người quản lý",
+      "appointment.participant": "Người tham gia"
+    }
+  },
+  "noticeTime": "Thời gian kết thúc phải sau thời gian bắt đầu",
+  "relatedDocuments": "Tài liệu liên quan",
+  "recordId": "Mã bản ghi",
+  "creationTime": "Thời gian tạo",
+  "fileSize": "Kích cỡ",
+  "record": "Bản ghi",
+  "invalidStatus": "Trạng thái cuộc hội chẩn không hợp lệ !",
+  "approve": "Phê duyệt",
+  "revoke": "Thu hồi phê duyệt",
+  "endConsultation": "Kết thúc cuộc hội chẩn",
+  "staff": "Nhân viên",
+  "open-dicom": "Mở trình xem Dicom",
+  "propose": "Đề xuất cuộc hội chẩn",
+  "FORBIDDEN": "Bạn không có quyền thực hiện hành động này !"
+}

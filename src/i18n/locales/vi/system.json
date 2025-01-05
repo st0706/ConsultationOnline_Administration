@@ -1,0 +1,111 @@
+{
+  "systemOverview": "Tổng quan hệ thống",
+  "takeMeHome": "Về trang chủ",
+  "app": {
+    "his": "HIS",
+    "hrm": "Nhân sự",
+    "consultation": "Hội chẩn",
+    "calendar": "Lịch",
+    "system": "Hệ thống"
+  },
+  "error": {
+    "title": "Rất tiếc, đã xảy ra lỗi..",
+    "metaTitle": "Lỗi phía máy chủ",
+    "refresh": "Làm mới trang"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang.",
+    "metaTitle": "Không tìm thấy trang",
+    "description": "Rất tiếc, liên kết này không tồn tại. Có thể bạn đã nhập sai địa chỉ hoặc trang đã được chuyển sang một URL khác.",
+    "goBack": "Quay lại"
+  },
+  "header": {
+    "toggleNav": "Ẩn thiện thanh điều hướng",
+    "search": "Tìm kiếm...",
+    "language": "Ngôn ngữ",
+    "messages": "Tin nhắn",
+    "newMessages": "{{count}} tin nhắn mới",
+    "showAllMessages": "Xem tất cả tin nhắn",
+    "notifications": "Thông báo",
+    "newNotifications": "{{count}} thông báo mới",
+    "showAllNotifications": "Xem tất cả thông báo",
+    "welcome": "Xin chào!",
+    "account": "Tài khoản",
+    "profile": "Hồ sơ tài khoản",
+    "settings": "Thiết lập",
+    "lockScreen": "Khóa màn hình",
+    "signout": "Thoát"
+  },
+  "footer": {
+    "about": "Giới thiệu",
+    "help": "Hướng dẫn",
+    "contact": "Liên hệ"
+  },
+  "colorScheme": {
+    "select": "Chọn cách phối màu",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Màu hệ thống"
+  },
+  "user": {
+    "name": "Người dùng",
+    "title": "Danh sách người dùng",
+    "image": "Ảnh",
+    "uploadImage": "Tải lên ảnh",
+    "email": "Email",
+    "emailVerified": "Xác thực email",
+    "password": "Mật khẩu",
+    "role": "Vai trò"
+  },
+  "adDivision": {
+    "name": "Đơn vị hành chính",
+    "title": "Danh mục đơn vị hành chính",
+    "wardCode": "Mã phường/Xã",
+    "wardName": "Phường/Xã",
+    "districtId": "Mã quận/Huyện",
+    "districtName": "Quận/Huyện",
+    "cityId": "Mã tỉnh/TP",
+    "cityName": "Tỉnh/TP"
+  },
+  "organization": {
+    "manageOrg": "Quản lý tổ chức",
+    "rootName": "Bệnh viện",
+    "descriptionTreeView": "Danh sách {{object}} (dạng cây). Bấm chuột phải để thực hiện các thao tác",
+    "descriptionTableView": "Danh sách {{object}} (dạng bảng)",
+    "displayModeTreeView": "Chế độ hiển thị dạng cây",
+    "displayModeTableView": "Chế độ hiển thị dạng bảng",
+    "childName": "Tổ chức con",
+    "warningdelete": "Tất cả {{object}} bên trong cũng sẽ bị xóa",
+    "nameTable": "Tên",
+    "alias": "Tên tiếng anh",
+    "website": "Website",
+    "logo": "Logo",
+    "action": "Thao tác",
+    "belongsTo": "Trực thuộc tổ chức",
+    "active": "Hoạt động?",
+    "type": {
+      "name": "Loại",
+      "prov": "Nhà cung cấp dịch vụ y tế",
+      "dept": "Khoa bệnh viện",
+      "team": "Đội ngũ tổ chức",
+      "govt": "Chính phủ",
+      "ins": "Công ty bảo hiểm",
+      "pay": "Tổ chức chi trả",
+      "edu": "Viện giáo dục",
+      "reli": "Tổ chức tôn giáo",
+      "crs": "Nhà tài trợ nghiên cứu lâm sàng",
+      "cg": "Nhóm cộng đồng",
+      "bus": "Doanh nghiệp hoặc Công ty Phi Y tế",
+      "other": "Khác"
+    }
+  },
+  "expertise": {
+    "name": "Lĩnh vực hoạt động",
+    "title": "Lĩnh vực hoạt động, chuyên môn của tổ chức",
+    "fieldId": "Mã lĩnh vực",
+    "fieldName": "Tên lĩnh vực",
+    "description": "Ghi chú",
+    "updatedAt": "Ngày cập nhật",
+    "updatedBy": "Người cập nhật"
+  }
+}

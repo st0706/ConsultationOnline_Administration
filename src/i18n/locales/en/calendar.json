@@ -1,0 +1,14 @@
+{
+  "calendar": "Calendar",
+  "subtitle": "Select dates to create a new event. Drag, drop, and resize events",
+  "showWeekends": "Show weekends",
+  "event": {
+    "name": "Event",
+    "title": "Event title",
+    "titleHint": "Enter a new title for your event",
+    "periodStart": "Period Start",
+    "periodEnd": "Period End",
+    "description": "Description"
+  },
+  "view": "View detail"
+}

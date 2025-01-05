@@ -1,0 +1,111 @@
+{
+  "systemOverview": "System Overview",
+  "takeMeHome": "Take me to home page",
+  "app": {
+    "his": "HIS",
+    "hrm": "Staff",
+    "consultation": "Consultation",
+    "calendar": "Calendar",
+    "system": "System"
+  },
+  "error": {
+    "title": "Sorry, unexpected error..",
+    "metaTitle": "Server Error",
+    "refresh": "Refresh Page"
+  },
+  "notFound": {
+    "title": "You have found a secret place.",
+    "metaTitle": "Page Not Found",
+    "description": "Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has been moved to another URL.",
+    "goBack": "Go back"
+  },
+  "header": {
+    "toggleNav": "Toggle side navigation",
+    "search": "Search...",
+    "language": "Language",
+    "messages": "Messages",
+    "newMessages": "{{count}} new messages",
+    "showAllMessages": "Show all messages",
+    "notifications": "Notifications",
+    "newNotifications": "{{count}} new notifications",
+    "showAllNotifications": "Show all notifications",
+    "welcome": "Welcome!",
+    "account": "Account",
+    "profile": "Account profile",
+    "settings": "Settings",
+    "lockScreen": "Lock Screen",
+    "signout": "Sign Out"
+  },
+  "footer": {
+    "about": "About Us",
+    "help": "Help",
+    "contact": "Contact Us"
+  },
+  "colorScheme": {
+    "select": "Select color scheme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "Use System Colors"
+  },
+  "user": {
+    "name": "User",
+    "title": "Users",
+    "image": "Image",
+    "uploadImage": "Upload Image",
+    "email": "Email",
+    "emailVerified": "Email Verified",
+    "password": "Password",
+    "role": "Role"
+  },
+  "adDivision": {
+    "name": "Admin Division",
+    "title": "Administrative Divisions",
+    "wardCode": "Ward Code",
+    "wardName": "Ward Name",
+    "districtId": "District Code",
+    "districtName": "District Name",
+    "cityId": "City Code",
+    "cityName": "City Name"
+  },
+  "organization": {
+    "manageOrg": "Organizational Management",
+    "rootName": "Hospital",
+    "descriptionTreeView": "List of {{object}} (tree view). Right-click to do the operation",
+    "descriptionTableView": "List of {{object}} (table view)",
+    "displayModeTreeView": "Tree display mode",
+    "displayModeTableView": "Table display mode",
+    "childName": "Child Organization",
+    "warningdelete": "All internal {{object}}s will also be deleted",
+    "nameTable": "Name",
+    "alias": "Alias",
+    "website": "Website",
+    "logo": "Logo",
+    "action": "Action",
+    "belongsTo": "Belongs to organization",
+    "active": "Active?",
+    "type": {
+      "name": "Type",
+      "prov": "Healthcare Provider",
+      "dept": "Hospital Department",
+      "team": "Organizational team",
+      "govt": "Government",
+      "ins": "Insurance Company",
+      "pay": "Payer",
+      "edu": "Educational Institute",
+      "reli": "Religious Institution",
+      "crs": "Clinical Research Sponsor",
+      "cg": "Community Group",
+      "bus": "Non-Healthcare Business or Corporation",
+      "other": "Other"
+    }
+  },
+  "expertise": {
+    "name": "Field of operation",
+    "title": "Field of operation and expertise of the organization",
+    "fieldId": "Code",
+    "fieldName": "Name",
+    "description": "Note",
+    "updatedAt": "Updated At",
+    "updatedBy": "Updated By"
+  }
+}

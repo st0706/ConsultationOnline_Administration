@@ -1,0 +1,14 @@
+{
+  "calendar": "Lịch",
+  "subtitle": "Chọn ngày để tạo sự kiện mới. Kéo, thả để thay đổi ngày.",
+  "showWeekends": "Hiện ngày cuối tuần",
+  "event": {
+    "name": "Sự kiện",
+    "title": "Tiêu đề sự kiện",
+    "titleHint": "Nhập tiêu đề cho sự kiện của bạn",
+    "periodStart": "Ngày bắt đầu",
+    "periodEnd": "Ngày kết thúc",
+    "description": "Mô tả"
+  },
+  "view": "Xem chi tiết"
+}

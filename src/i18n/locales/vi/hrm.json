@@ -1,0 +1,400 @@
+{
+  "hrm": "Nhân sự",
+  "pressEnterToAdd": "Bấm enter để thêm",
+  "add": "Thêm {{name}}",
+  "uploadFile": "Tải lên file",
+  "fileNotification": "File PDF dưới 16MB.",
+  "addMember": "Thêm thành viên",
+  "endPoint": {
+    "name": "Điểm cuối kĩ thuật"
+  },
+  "degree": {
+    "name": "Học hàm - học vị",
+    "title": "Danh mục học hàm - học vị"
+  },
+  "position": {
+    "name": "Chức danh",
+    "title": "Danh mục chức danh"
+  },
+  "timekeeping": {
+    "staff": "Nhân viên",
+    "name": "Chấm công",
+    "title": "Bảng chấm công",
+    "staffId": "Mã nhân viên",
+    "staffName": "Tên nhân viên",
+    "date": "Ngày chấm công",
+    "checkIn": "Giờ vào",
+    "checkOut": "Giờ ra",
+    "status": "Xác nhận",
+    "description": "Giải trình",
+    "statusReview": "Trạng thái duyệt",
+    "statusTrue": "Đủ công",
+    "statusFalse": "Không đủ công"
+  },
+  "profile": {
+    "name": "Hồ sơ",
+    "title": "Hồ sơ nhân sự",
+    "personalInformation": {
+      "title": "Thông tin cá nhân",
+      "description": "Các thông tin cá nhân, liên hệ, học vấn và lịch sử làm việc"
+    },
+    "mainInformation": {
+      "title": "Thông tin chính",
+      "description": "Các thông tin cá nhân quan trọng",
+      "fullName": "Họ và tên",
+      "staffId": "Mã nhân sự",
+      "startDate": "Ngày bắt đầu",
+      "officialDate": "Ngày chính thức",
+      "status": {
+        "title": "Tình trạng việc làm",
+        "working": "Đang làm việc",
+        "leave": "Nghỉ làm việc"
+      },
+      "currentContract": "Hợp đồng hiện tại",
+      "phone": "Số điện thoại",
+      "position": "Chức danh",
+      "dOB": "Ngày sinh",
+      "gender": "Giới tính",
+      "maritalStatus": "Tình trạng hôn nhân",
+      "office": "Văn phòng",
+      "workSchedule": "Lịch làm việc",
+      "culturalLevel": "Trình độ văn hoá"
+    },
+    "taxes-insurance": {
+      "title": "Thuế và bảo hiểm",
+      "description": "Thông tin về thuế, bảo hiểm và các chính sách theo kèm",
+      "taxId": "Mã số thuế",
+      "deductionTax": "Giảm trừ thuế thu nhập cá nhân",
+      "policyTax": "Chính sách thuế",
+      "SINumber": "Số sổ BHXH",
+      "SIRegistrationPlace": "Nơi đăng ký BHXH",
+      "SIPolicy": "Chính sách bảo hiểm"
+    },
+    "additionalInformation": {
+      "title": "Thông tin cá nhân bổ sung",
+      "description": "Một số thông tin cá nhân bổ sung",
+      "currentAddress": "Địa chỉ hiện tại",
+      "pOB": "Nơi sinh",
+      "permanentResidence": "Hộ khẩu thường trú",
+      "nationality": "Quốc tịch",
+      "CI": "CMT/Căn cước công dân",
+      "DL": "Số giấy phép lái xe",
+      "PPN": "Số hộ chiếu",
+      "issueDate": "Ngày cấp",
+      "issuePlace": "Nơi cấp"
+    },
+    "bankAccount": {
+      "title": "Tài khoản ngân hàng",
+      "description": "Thông tin tài khoản ngân hàng",
+      "BANumber": "Số tài khoản ngân hàng",
+      "BAName": "Tên chủ tài khoản",
+      "BAPlace": "Tại ngân hàng"
+    },
+    "educationInformation": {
+      "title": "Thông tin học vấn",
+      "description": "Chi tiết lịch sử học vấn"
+    },
+    "workHistory": {
+      "title": "Lịch sử làm việc",
+      "description": "Chi tiết lịch sử làm việc"
+    },
+    "relatedPerson": {
+      "title": "Nhân thân",
+      "description": "Gia đình, người phụ thuộc và người liên hệ khác"
+    },
+    "jobApplication": {
+      "title": "Hồ sơ xin việc",
+      "description": "Danh sách hồ sơ xin việc"
+    },
+    "certification": {
+      "title": "Thành tựu và giải thưởng",
+      "description": "Giải thưởng, chứng chỉ, cột mốc và sự ghi nhận nhân sự đã đạt được",
+      "prize": {
+        "title": "Giải thưởng",
+        "description": "Các giải thưởng của công ty tôi nhận được"
+      },
+      "certificate": {
+        "title": "Chứng chỉ",
+        "description": "Danh sách các chứng chỉ tôi nhận được"
+      },
+      "milestones": {
+        "title": "Cột mốc",
+        "description": "Các cột mốc tôi tạo được"
+      },
+      "acknowledge": {
+        "title": "Ghi nhận",
+        "description": "Các ghi nhận của đồng nghiệp dành cho tôi"
+      }
+    },
+    "discipline": {
+      "title": "Vi phạm",
+      "description": "Các vi phạm quy định làm việc, chính sách"
+    },
+    "jobInformation": {
+      "title1": "Thông tin công việc",
+      "title2": "Các thông tin về công việc và sự nghiệp",
+      "description1": "Thông tin về công việc, sự nghiệp, các kế hoạch phát triển và các nghiệp vụ được giao",
+      "description2": "Thông tin quan về công việc hiện tại",
+      "position": "Vị trí",
+      "salary": "Lương",
+      "baseSalary": "Lương cơ bản",
+      "policySalary": "Chính sách lương",
+      "CareereDevelopment": {
+        "title": "Lịch sử phát triển sự nghiệp",
+        "description": "Bổ nhiệm, tăng lương và điều chuyển",
+        "salaryProcess": {
+          "title": "Quá trình lương:",
+          "million": " triệu",
+          "salaryRecruitment": "Lương khi tuyển",
+          "currentSalary": "Lương hiện tại",
+          "workingDays": "Ngày làm việc",
+          "careerDevelopment": "Phát triển sự nghiệp",
+          "days": "ngày",
+          "noDataDescription": "Không có dữ liệu để hiển thị"
+        }
+      }
+    },
+    "workScheduleAndLeave": {
+      "title": "Lịch làm việc & nghỉ phép",
+      "description": "Lịch làm việc, chấm công, nghỉ phép và mã chấm công",
+      "checkIn": {
+        "title": "Các lần checkin gần nhất",
+        "description": "Các dữ liệu checkin được lấy từ AnPhat Checkin"
+      },
+      "workSchedule": {
+        "title": "Lịch làm việc hiện tại",
+        "description": "Thông tin về lịch làm việc hiện tại"
+      },
+      "leave": {
+        "title": "Nghỉ phép",
+        "description": "Các dữ liệu xin nghỉ phép"
+      }
+    },
+    "trainingProcess": {
+      "title": "Đào tạo nội bộ",
+      "description": "Thông tin về các dự án đào tạo nội bộ"
+    },
+    "travelProcess": {
+      "title": "Công tác nước ngoài",
+      "description": "Thông tin về các chuyến công tác nước ngoài của nhân viên"
+    }
+  },
+  "work": {
+    "name": "Công việc",
+    "title": "Bảng công việc",
+    "code": "Mã công việc",
+    "type": "Loại công việc",
+    "start": "Thời gian thực hiện",
+    "decisionNo": "Số QĐ ban hành",
+    "decisionDate": "Ngày áp dụng",
+    "point": "Số điểm",
+    "coefficient": "Hệ số áp dụng"
+  },
+  "staff": {
+    "name": "Nhân viên",
+    "title": "Danh sách nhân viên",
+    "staffId": "Mã nhân viên",
+    "fullName": "Họ tên",
+    "gender": "Giới tính",
+    "dOB": "Ngày sinh",
+    "organizations": "Đơn vị trực thuộc",
+    "deceasedBoolean": "Đã mất ?",
+    "deceasedDateTime": "Ngày mất",
+    "ethnicMinority": "Dân tộc",
+    "nationality": "Quốc tịch",
+    "religion": "Tôn giáo",
+    "culturalLevel": "Trình độ văn hoá",
+    "dojCPV": "Ngày vào Đảng",
+    "dojCYU": "Ngày vào đoàn",
+    "habit": "Sở trường",
+    "officialDojCPV": "Ngày vào Đảng chính thức",
+    "speciality": "Chuyên môn",
+    "education": "Học vấn",
+    "accountId": "Tài khoản liên kết"
+  },
+  "workingProcess": {
+    "limit": "File PDF dưới 16MB",
+    "add": "Thêm mới quá trình công tác",
+    "name": "Quá trình công tác",
+    "unit": "Đơn vị",
+    "department": "Phòng ban",
+    "periodStart": "Từ ngày",
+    "periodEnd": "Đến ngày",
+    "workingForm": {
+      "name": "Hình thức làm việc",
+      "fullTime": "Toàn thời gian",
+      "partTime": "Bán thời gian",
+      "concurrently": "Kiêm nhiệm",
+      "hourly": "Theo giờ"
+    },
+    "coefficient": "Hệ số chức vụ",
+    "decisionNumber": "Số quyết định",
+    "coefficientsSalary": "Hệ số lương",
+    "unitSalary": "Đơn giá lương cơ bản",
+    "allowance": "Phụ cấp",
+    "unitAllowance": "Đơn giá phụ cấp"
+  },
+  "discipline": {
+    "name": "Kỷ luật",
+    "title": "Quản lý kỷ luật",
+    "staff": "Nhân viên",
+    "decisionCode": "Số quyết định",
+    "decisionDate": "Ngày quyết định",
+    "effectiveDate": "Ngày hiệu lực",
+    "files": "Nội dung",
+    "formDiscipline": "Hình thức kỷ luật",
+    "signerDecision": "Người ký",
+    "department": "Nơi ký"
+  },
+  "certification": {
+    "name": "Chứng chỉ",
+    "field": "Lĩnh vực",
+    "level": "Mức chứng chỉ",
+    "issueDate": "Ngày cấp",
+    "periodStart": "Ngày hiệu lực",
+    "periodEnd": "Ngày hết hạn",
+    "schoolingMode": "Hình thức làm việc",
+    "isInternational": "Chứng chỉ quốc tế",
+    "trainingFacility": "Cơ sở đào tạo",
+    "trainingLocation": "Địa điểm đào tạo",
+    "pointsAchieved": "Điểm đạt được",
+    "classification": "Kết quả xếp loại"
+  },
+  "relatedPerson": {
+    "title": "Thông tin nhân thân",
+    "name": "Nhân thân",
+    "fullName": "Họ và tên",
+    "dOB": "Ngày sinh",
+    "taxNumber": "Mã số thuế",
+    "relatedType": {
+      "title": "Quan hệ nhân thân",
+      "father": "Bố đẻ",
+      "mother": "Mẹ đẻ",
+      "fatherInLaw": "Bố vợ/chồng",
+      "motherInLaw": "Mẹ vợ/chồng",
+      "son": "Con trai",
+      "daughter": "Con gái"
+    },
+    "gender": {
+      "title": "Giới tính",
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác",
+      "unknown": "Không rõ"
+    },
+    "career": "Nghề nghiệp",
+    "workUnit": "Công tác tại",
+    "deceasedDateTime": "Ngày mất",
+    "deceasedBoolean": "Đã mất ?",
+    "permanentResidence": "Hộ khẩu thường trú",
+    "note": "Ghi chú",
+    "saveAndClose": "Lưu và đóng",
+    "saveAndCreate": "Lưu và tạo mới",
+    "close": "Hủy bỏ"
+  },
+  "travelProcess": {
+    "name": "Công tác nước ngoài",
+    "title": "Quản lý đi nước ngoài",
+    "startTime": "Từ ngày",
+    "endTime": "Đến ngày",
+    "country": "Quốc gia công tác",
+    "status": {
+      "title": "Hình thức công tác",
+      "recommendation": "Đề cử",
+      "self": "Tự đi"
+    },
+    "staff": "Nhân viên",
+    "purpose": "Mục đích"
+  },
+  "trainingProcess": {
+    "name": "Đào tạo nội bộ",
+    "title": "Quá trình đào tạo nội bộ",
+    "start": "Từ ngày",
+    "end": "Đến ngày",
+    "trainingform": {
+      "title": "Hình thức đào tạo",
+      "self-executingunit": "Đơn vị tự thực hiện",
+      "trainedbyanoutsideunit": "Do đơn vị ngoài thực hiện"
+    },
+    "trainingproject": "Dự án đào tạo"
+  },
+  "furlough": {
+    "name": "Đăng ký nghỉ",
+    "received": "Kính gửi Ông/bà",
+    "staffId": "Mã số nhân viên",
+    "staffName": "Tên nhân viên",
+    "reason": {
+      "name": "Lý do nghỉ",
+      "paidLeave": "Nghỉ phép",
+      "unpaidLeave": "Không lương",
+      "sickLeave": "Nghỉ ốm",
+      "paternityLeave": "Thai sản"
+    },
+    "site": "Nơi nghỉ",
+    "periodStart": "Nghỉ từ ngày",
+    "periodEnd": "Nghỉ đến ngày",
+    "daysOffCount": "Số ngày nghỉ",
+    "daysCountOfYear": "Số ngày phép được nghỉ trong năm",
+    "daysCountInPast": "Số ngày đã nghỉ phép",
+    "daysCountRemaining": "Số ngày còn lại",
+    "approver": "Người duyệt",
+    "related": "Người liên quan",
+    "noticeFromTo": "Ngày kết thúc phải sau ngày bắt đầu"
+  },
+  "education": {
+    "name": "Học vấn",
+    "trainingLevel": "Trình độ đào tạo",
+    "trainingFacility": "Cơ sở đào tạo",
+    "trainingType": "Loại đào tạo",
+    "trainingForm": "Hình thức đào tạo",
+    "trainingSpecialize": "Chuyên ngành đào tạo",
+    "trainingTitle": "Danh hiệu đào tạo",
+    "start": "Từ ngày",
+    "end": "Đến ngày",
+    "dateOfIssue": "Ngày cấp",
+    "rank": "Xếp loại tốt nghiệp",
+    "attachment": "Tệp đính kèm",
+    "priority": "Trình độ ưu tiên ?",
+    "isSent": "Được cử đi học ?",
+    "note": "Ghi chú"
+  },
+  "trainingLevel": {
+    "doctor": "Tiến sĩ",
+    "master": "Thạc sĩ",
+    "specialistI": "Bác sĩ chuyên khoa I",
+    "specialistII": "Bác sĩ chuyên khoa II",
+    "residentDoctor": "Bác sĩ nội trú",
+    "university": "Đại học",
+    "college": "Cao đẳng",
+    "intermediate": "Trung cấp"
+  },
+  "trainingType": {
+    "domestic": "Trong nước",
+    "foreign": "Nước ngoài"
+  },
+  "trainingForm": {
+    "formal": "Chính quy",
+    "secondDergree": "Chính quy văn bằng 2",
+    "crashCourse": "Chuyên tu",
+    "levelTransfer": "Chuyển cấp",
+    "distributed": "Không tập trung",
+    "transnational": "liên kết"
+  },
+  "manangingOrganization": {
+    "name": "Thuộc các tổ chức"
+  },
+  "gender": {
+    "title": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác",
+    "unknown": "Không rõ"
+  },
+  "religion": {
+    "Nothing": "Không",
+    "Protestantism": "Tin Lành",
+    "Buddhism": "Đạo Phật",
+    "Islam": "Đạo Hồi",
+    "Christianity": "Thiên Chúa"
+  }
+}

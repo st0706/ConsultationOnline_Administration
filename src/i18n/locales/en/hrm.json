@@ -1,0 +1,399 @@
+{
+  "hrm": "HRM",
+  "pressEnterToAdd": "Press Enter to add",
+  "add": "Add {{name}}",
+  "uploadFile": "Upload Files",
+  "addMember": "Add Member",
+  "endPoint": {
+    "name": "Technical endpoints"
+  },
+  "degree": {
+    "name": "Degree",
+    "title": "Degree category"
+  },
+  "position": {
+    "name": "Position",
+    "title": "Position category"
+  },
+  "timekeeping": {
+    "name": "Timekeeping",
+    "title": "Timekeeping Table",
+    "staffId": "Staff id",
+    "staffName": "Staff name",
+    "date": "Date",
+    "checkIn": "Check in",
+    "checkOut": "Check out",
+    "status": "Confirm",
+    "description": "Explanation",
+    "statusReview": "Status",
+    "statusTrue": "True",
+    "statusFalse": "False"
+  },
+  "profile": {
+    "name": "Profile",
+    "title": "Staff Profile",
+    "personalInformation": {
+      "title": "Personal Information",
+      "description": "Personal information, contacts, education and work history"
+    },
+    "mainInformation": {
+      "title": "Main Information",
+      "description": "Important personal information",
+      "fullName": "Full Name",
+      "staffId": "Staff ID",
+      "startDate": "Start Date",
+      "officialDate": "Official Date",
+      "status": {
+        "title": "Working status",
+        "working": "Working",
+        "leave": "Resign"
+      },
+      "currentContract": "Current Contract",
+      "phone": "Phone",
+      "position": "Position",
+      "dOB": "Date of birth",
+      "gender": "Gender",
+      "maritalStatus": "Marital Status",
+      "office": "Office",
+      "workSchedule": "Work schedule",
+      "culturalLevel": "Cultural level"
+    },
+    "taxes-insurance": {
+      "title": "Tax and insurance",
+      "description": "Information about taxes, insurance and accompanying policies",
+      "taxId": "Tax ID",
+      "deductionTax": "Personal income tax deduction",
+      "policyTax": "Policy of tax",
+      "SINumber": "Social insurance book number",
+      "SIRegistrationPlace": "Place of social insurance registration",
+      "SIPolicy": "Insurance policy"
+    },
+    "additionalInformation": {
+      "title": "Additional personal information",
+      "description": "Some additional personal information",
+      "currentAddress": "Current Address",
+      "pOB": "Place of birth",
+      "permanentResidence": "Permanent residence",
+      "nationality": "Nationality",
+      "CI": "Citizen ID card",
+      "DL": "Driver's license number",
+      "PPN": "Passport",
+      "issueDate": "Issue date",
+      "issuePlace": "Issue place"
+    },
+    "bankAccount": {
+      "title": "Bank account",
+      "description": "Bank account information",
+      "BANumber": "Bank account number",
+      "BAName": "Account name",
+      "BAPlace": "At the bank"
+    },
+    "educationInformation": {
+      "title": "Education Information",
+      "description": "Detailed educational history"
+    },
+    "workHistory": {
+      "title": "Work history",
+      "description": "Detailed work history"
+    },
+    "relatedPerson": {
+      "title": "Related Person",
+      "description": "Family, dependents and other contacts"
+    },
+    "jobApplication": {
+      "title": "Job application",
+      "description": "List of job applications"
+    },
+    "certification": {
+      "title": "Achievements and awards",
+      "description": "Awards, certifications, milestones and recognition of personnel achieved",
+      "prize": {
+        "title": "Prize",
+        "description": "Awards received by my company"
+      },
+      "certificate": {
+        "title": "Certificate",
+        "description": "List of certificates I received"
+      },
+      "milestones": {
+        "title": "Milestones",
+        "description": "Milestones I created"
+      },
+      "acknowledge": {
+        "title": "Acknowledge",
+        "description": "My colleague's acknowledge to me"
+      }
+    },
+    "discipline": {
+      "title": "Discipline",
+      "description": "Discipline of work regulations and policies"
+    },
+    "jobInformation": {
+      "title1": "Job Information",
+      "title2": "Information about jobs and careers",
+      "description1": "Information about work, career, development plans and assigned operations",
+      "description2": "Important information about current job",
+      "position": "Position",
+      "salary": "Salary",
+      "baseSalary": "Base Salary",
+      "policySalary": "Policy Salary",
+      "CareereDevelopment": {
+        "title": "Career development history",
+        "description": "Appointment, salary increase and transfer",
+        "salaryProcess": {
+          "title": "Salary process:",
+          "million": " million",
+          "salaryRecruitment": "Salary when recruiting",
+          "currentSalary": "Current salary",
+          "workingDays": "Number of working days",
+          "careerDevelopment": "Career development",
+          "days": "days",
+          "noDataDescription": "No data to display"
+        }
+      }
+    },
+    "workScheduleAndLeave": {
+      "title": "Work schedule & Furlough",
+      "description": "Work schedule, timekeeping, leave and timekeeping code",
+      "checkIn": {
+        "title": "Most recent check-in",
+        "description": "The check-in data is taken from AnPhat check-in"
+      },
+      "workSchedule": {
+        "title": "Current work schedule",
+        "description": "Information about current work schedule"
+      },
+      "leave": {
+        "title": "Furlough",
+        "description": "Furlough application data"
+      }
+    },
+    "trainingProcess": {
+      "title": "Training Process",
+      "description": "Information about internal training process"
+    },
+    "travelProcess": {
+      "title": "Travel Process",
+      "description": "Information about employees' foreign business trips"
+    }
+  },
+  "work": {
+    "name": "Work",
+    "title": "Works",
+    "code": "Code",
+    "type": "Type",
+    "start": "Start time",
+    "decisionNo": "Decision number",
+    "decisionDate": "Date of application",
+    "point": "Points for work",
+    "coefficient": "Coefficient applied"
+  },
+  "staff": {
+    "name": "Staff",
+    "title": "Staff List",
+    "staffId": "Staff ID",
+    "fullName": "Full name",
+    "gender": "Gender",
+    "dOB": "Date of birth",
+    "organizations": "Organizations",
+    "deceasedBoolean": "Deceased ?",
+    "deceasedDateTime": "Deceased date",
+    "ethnicMinority": "Ethnic",
+    "nationality": "Nationality",
+    "religion": "Religion",
+    "culturalLevel": "Cultural level",
+    "dojCPV": "Date of joining the Party",
+    "dojCYU": "Date of joining the Union",
+    "habit": "Forte",
+    "officialDojCPV": "Official date of joining the Party",
+    "speciality": "Speciality",
+    "education": "Education",
+    "accountId": "Linked account "
+  },
+  "workingProcess": {
+    "name": "Working Process",
+    "limit": "PDF file under 16MB",
+    "add": "Add Working Process",
+    "unit": "Unit",
+    "department": "Department",
+    "periodStart": "From date",
+    "periodEnd": "To data",
+    "workingForm": {
+      "name": "Working form",
+      "fullTime": "Full time",
+      "partTime": "Part time",
+      "concurrently": "Concurrently",
+      "hourly": "Hourly"
+    },
+    "coefficient": "Coefficient",
+    "decisionNumber": "Decision Number",
+    "coefficientsSalary": "Coefficients Salary",
+    "unitSalary": "Unit Salary",
+    "allowance": "Allowance",
+    "unitAllowance": "Unit Allowance"
+  },
+  "discipline": {
+    "name": "Discipline",
+    "title": "Discipline Manager",
+    "staff": "Staff",
+    "decisionCode": "Decision number",
+    "decisionDate": "Decision date",
+    "effectiveDate": "Effective date",
+    "files": "Information",
+    "formDiscipline": "Form discipline",
+    "signerDecision": "Signer decision",
+    "department": "Department"
+  },
+  "certification": {
+    "name": "Certification",
+    "field": "Field",
+    "level": "Level",
+    "issueDate": "Issue date",
+    "periodStart": "Effective date",
+    "periodEnd": "Expiration date",
+    "schoolingMode": "Working form",
+    "isInternational": "Certification international",
+    "trainingFacility": "Training facility",
+    "trainingLocation": "Training location",
+    "pointsAchieved": "Points achieved",
+    "classification": "Results classification"
+  },
+  "relatedPerson": {
+    "title": "Related person infomation",
+    "name": "Related person",
+    "fullName": "Full name",
+    "dOB": "Date of birth",
+    "taxNumber": "Tax number",
+    "relatedType": {
+      "title": "Personal relations",
+      "father": "Father",
+      "mother": "Mother",
+      "fatherInLaw": "Father in law",
+      "motherInLaw": "Mother in law",
+      "son": "Son",
+      "daughter": "Daughter"
+    },
+    "gender": {
+      "title": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "unknown": "Unknown"
+    },
+    "career": "Career",
+    "workUnit": "Work unit",
+    "deceasedBoolean": "Deceased ?",
+    "deceasedDateTime": "Deceased date time",
+    "permanentResidence": "Permanent residence",
+    "note": "Note",
+    "saveAndClose": "Save & Close",
+    "saveAndCreate": "Save & Create",
+    "close": "Close"
+  },
+  "travelProcess": {
+    "name": "Travel process",
+    "title": "Travel Management",
+    "startTime": "From Date",
+    "endTime": "To Date",
+    "country": "Country of Travel",
+    "status": {
+      "title": "Travel Mode",
+      "recommendation": "Recommendation",
+      "self": "Self-organized"
+    },
+    "staff": "Staff",
+    "purpose": "Purpose"
+  },
+  "trainingProcess": {
+    "name": "Training process",
+    "title": "Internal Training Process",
+    "start": "From Date",
+    "end": "To Date",
+    "trainingform": {
+      "title": "Training form",
+      "self-executingunit": "Self-executing unit",
+      "trainedbyanoutsideunit": "Trained by an outside unit"
+    },
+    "trainingproject": "Training project"
+  },
+  "furlough": {
+    "name": "Furlough",
+    "received": "Received",
+    "staffId": "Staff ID",
+    "staffName": "Staff name",
+    "reason": {
+      "name": "Reason",
+      "paidLeave": "Paid leave",
+      "unpaidLeave": "Unpaid leave",
+      "sickLeave": "Sick leave",
+      "paternityLeave": "Paternity leave"
+    },
+    "site": "Resting place",
+    "periodStart": "On furlough from",
+    "periodEnd": "On furlough to",
+    "daysOffCount": "Number of days off",
+    "daysCountOfYear": "Number of days off during the year",
+    "daysCountInPast": "Number of days off in past",
+    "daysCountRemaining": "Number of days off remaining",
+    "approver": "Approver",
+    "related": "Related",
+    "noticeFromTo": "The end date must be after the start date"
+  },
+  "education": {
+    "name": "Education",
+    "trainingLevel": "Training Level",
+    "trainingFacility": "Training Facility",
+    "trainingType": "Type of Training",
+    "trainingForm": "Form of Training",
+    "trainingSpecialize": "Training Specialization",
+    "trainingTitle": "Training Title",
+    "start": "From Date",
+    "end": "To Date",
+    "dateOfIssue": "Date of Issue",
+    "rank": "Graduation Rank",
+    "attachment": "Attachment File",
+    "priority": "Priority Level?",
+    "isSent": "Sent for Training?",
+    "note": "Note"
+  },
+  "trainingLevel": {
+    "doctor": "Doctor",
+    "master": "Master",
+    "specialistI": "Specialist I",
+    "specialistII": "Specialist II",
+    "residentDoctor": "Resident Doctor",
+    "university": "University",
+    "college": "College",
+    "intermediate": "Intermediate"
+  },
+  "trainingType": {
+    "domestic": "Domestic",
+    "foreign": "Foreign"
+  },
+  "trainingForm": {
+    "formal": "Formal Training",
+    "secondDegree": "Second Degree",
+    "crashCourse": "Crash Course",
+    "levelTransfer": "Level Transfer",
+    "distributed": "Distributed Training",
+    "transnational": "Transnational Training"
+  },
+  "manangingOrganization": {
+    "name": "Belong to organizations",
+    "description": "The organization that is the custodian of the staff record."
+  },
+  "gender": {
+    "title": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "unknown": "Unknown"
+  },
+  "religion": {
+    "Nothing": "Nothing",
+    "Protestantism": "Protestantism",
+    "Buddhism": "Buddhism",
+    "Islam": "Islam",
+    "Christianity": "Christianity"
+  }
+}

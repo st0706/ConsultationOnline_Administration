@@ -1,0 +1,28 @@
+.indented {
+  border-left: 3px solid light-dark(var(--mantine-color-blue-4), var(--mantine-color-blue-3));
+  padding-left: 0.5rem;
+  .canRemove {
+    padding: 2px 4px 2px 2px;
+    border-radius: 4px;
+    .removeButton {
+      visibility: hidden;
+    }
+    @mixin hover {
+      background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+      .removeButton {
+        visibility: visible;
+      }
+    }
+  }
+  .indented {
+    border-left-color: light-dark(var(--mantine-color-orange-4), var(--mantine-color-orange-3));
+    .canRemove {
+      @mixin hover {
+        background-color: light-dark(var(--mantine-color-orange-0), var(--mantine-color-dark-7));
+      }
+    }
+    .indented {
+      border-left-color: light-dark(var(--mantine-color-red-5), var(--mantine-color-red-4));
+    }
+  }
+}

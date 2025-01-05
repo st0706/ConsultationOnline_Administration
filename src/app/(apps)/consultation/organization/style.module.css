@@ -1,0 +1,17 @@
+.node {
+  border-radius: 0 16px 16px 0;
+  cursor: pointer;
+  user-select: none;
+  border: 1px dashed transparent;
+  height: 100%;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.nodeHover:hover {
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.nodeSelected {
+  background-color: rgba(200, 200, 200, 1);
+}

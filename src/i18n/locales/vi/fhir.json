@@ -1,0 +1,397 @@
+{
+  "system": "Hệ thống",
+  "value": "Giá trị",
+  "use": "Sử dụng",
+  "purpose": "Mục đích",
+  "resourceArray": {
+    "add": "Thêm {{name}}",
+    "remove": "Xóa {{name}}"
+  },
+  "udiDeviceIdentifier": {
+    "deviceIdentifier": {
+      "label": "Mã định danh thiết bị"
+    },
+    "issuer": {
+      "label": "Tổ chức phát hành"
+    },
+    "jurisdiction": {
+      "label": "Thẩm quyền"
+    }
+  },
+  "manufacturer": {
+    "label": "Sản xuất bởi",
+    "type": {
+      "string": "Chuỗi",
+      "Reference": "Tham chiếu"
+    }
+  },
+  "classification": {
+    "type": {
+      "528391": "Vòng đo huyết áp",
+      "528404": "Máy phân tích thành phần cơ thể",
+      "528425": "Thiết bị tim mạch",
+      "528402": "Máy đo đông máu",
+      "528409": "Máy theo dõi đường huyết liên tục",
+      "528390": "Điện tâm đồ",
+      "528457": "Thiết bị 20601 chung",
+      "528401": "Máy theo dõi đường huyết",
+      "528455": "Trung tâm hoạt động/sống độc lập",
+      "528403": "Bơm Insulin",
+      "528405": "Đồng hồ đo lưu lượng đỉnh",
+      "528388": "Máy đo nồng độ oxy xung",
+      "528397": "Tốc độ hô hấp",
+      "528408": "Thiết bị thở ngưng thở khi ngủ",
+      "528426": "Trang bị sức mạnh",
+      "528392": "Nhiệt kế",
+      "528399": "Cân trọng lượng",
+      "38017": "Thiết bị trị liệu hít muối khô",
+      "38663": "Máy soi thận video linh hoạt",
+      "42347": "Cấy ghép nha khoa, nội cốt, được nhúng một phần",
+      "46352": "Stent mạch máu nội sọ bằng kim loại trần",
+      "47264": "Máy tạo nhịp tim cấy ghép hai buồng, nhu cầu",
+      "62163": "Ống thông trong tử cung, có thể tái sử dụng",
+      "62260": "Ống âm thanh trợ thính dẫn khí",
+      "62423": "Dây dẫn hệ thống kích thích điện cấy ghép vào tủy sống/dây thần kinh ngoại vi, kết nối có dây",
+      "62414": "Đèn quang trị liệu bằng ánh sáng xanh, sử dụng tại nhà",
+      "64587": "Đầu gối giả xương đùi không tráng phủ, bằng gốm",
+      "64992": "Hoạt động ADAMTS13 IVD, bộ kit, xét nghiệm miễn dịch hóa phát quang"
+    }
+  },
+  "property": {
+    "type": {
+      "label": "Loại",
+      "name": "Tên",
+      "height": "Chiều cao",
+      "width": "Chiều rộng",
+      "depth": "Độ sâu",
+      "weight": "Cân nặng",
+      "nominalVolume": "Dung tích định danh",
+      "externalDiameter": "Đường kính ngoài",
+      "shape": "Hình dạng",
+      "imprint": "Dấu ấn",
+      "color": "Màu sắc",
+      "attachment": "Đính kèm"
+    },
+    "unit": "Đơn vị",
+    "value": "Giá trị"
+  },
+  "count": "Số lượng",
+  "reference": "Tham chiếu",
+  "replaces": "Thay thế bởi",
+  "material": {
+    "substance": "Chất",
+    "alternate": {
+      "label": "Thay thế",
+      "description": "Cho biết 1 vật liệu có thể thay thế của thiết bị"
+    },
+    "allergenicIndicator": {
+      "label": "Chỉ số dị ứng",
+      "description": "Liệu chất đó có phải là chất (nghi ngờ) gây dị ứng"
+    }
+  },
+  "device": {
+    "name": "Thiết bị",
+    "deviceData": "Thông số",
+    "deviceCode": "Mã thiết bị",
+    "status": {
+      "label": "Trạng thái",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "enteredInError": "Nhập sai"
+    },
+    "availabilityStatus": {
+      "label": "Trạng thái sẵn có",
+      "lost": "Đã mất",
+      "damaged": "Bị hỏng",
+      "destroyed": "Bị phá hủy",
+      "available": "Có sẵn"
+    },
+    "category": {
+      "name": "Danh mục",
+      "type": {
+        "active": "Hoạt động",
+        "communicating": "Giao tiếp",
+        "dme": "Thiết bị y tế bền vững",
+        "home-use": "Bảo trì",
+        "implantable": "Cấy ghép",
+        "in-vitro": "Trong ống nghiệm",
+        "point-of-care": "Điểm chăm sóc y tế",
+        "single-use": "Dùng 1 lần",
+        "reusable": "Có thể tái sử dụng",
+        "software": "Phần mềm"
+      }
+    },
+    "location": "Địa điểm",
+    "parent": "Thiết bị cha"
+  },
+  "manufactureDate": "Ngày sản xuất",
+  "expirationDate": "Ngày hết hạn",
+  "lotNumber": "Số lô sản xuất",
+  "serialNumber": "Số seri",
+  "displayName": "Tên hiển thị",
+  "partNumber": "Mã bộ phận",
+  "identifier": {
+    "assigner": "Nơi cấp",
+    "periodStart": "Ngày cấp",
+    "periodEnd": "Có giá trị đến",
+    "type": {
+      "CI": "Căn cước công dân",
+      "BA": "Tài khoản ngân hàng",
+      "SI": "Bảo hiểm xã hội",
+      "DL": "Số giấy phép lái xe",
+      "PPN": "Số hộ chiếu",
+      "BRN": "Số đăng ký giống",
+      "MR": "Số bảo hiểm y tế",
+      "MCN": "Số vi mạch",
+      "EN": "Mã nhà tuyển dụng",
+      "TAX": "Mã số thuế cá nhân",
+      "NIIP": "Người trả bảo hiểm quốc gia",
+      "PRN": "Mã nhà cung cấp",
+      "MD": "Số giấy phép y tế",
+      "DR": "Số đăng ký nhà tài trợ",
+      "ACSN": "Mã định danh truy cập",
+      "UDI": "Mã định danh thiết bị",
+      "SNO": "Số seri",
+      "SB": "Người hưởng lợi xã hội",
+      "PLAC": "Người chỉ định",
+      "FILL": "Người khai",
+      "JHN": "Mã số y tế thẩm quyền"
+    }
+  },
+  "deviceName": {
+    "type": {
+      "placeholder": "Loại",
+      "registeredName": "Tên đăng ký",
+      "userFriendlyName": "Tên quen thuộc với người dùng",
+      "patientReportedName": "Tên báo cáo bởi bệnh nhân"
+    },
+    "name": "Tên thiết bị"
+  },
+  "deviceRequest": {
+    "status": {
+      "label": "Trạng thái",
+      "draft": "Bản nháp",
+      "active": "Hoạt động",
+      "onHold": "Đang chờ",
+      "revoked": "Đã thu hồi",
+      "complete": "Hoàn thành",
+      "enteredInError": "Nhập sai",
+      "unknown": "Không xác định"
+    },
+    "intent": {
+      "label": "Mục đích",
+      "proposal": "Đề xuất",
+      "plan": "Kế hoạch",
+      "directive": "Chỉ thị",
+      "order": "Yêu cầu",
+      "originalOrder": "Yêu cầu gốc",
+      "reflexOrder": "Yêu cầu tiếp nối",
+      "fillerOrder": "Yêu cầu thêm",
+      "instanceOrder": "Yêu cầu cụ thể",
+      "option": "Tuỳ chọn"
+    },
+    "code": {
+      "label": "Thiết bị được yêu cầu",
+      "resource": {
+        "label": "Loại",
+        "device": "Thiết bị",
+        "deviceDefinition": "Định nghĩa thiết bị"
+      },
+      "deviceName": "Tên thiết bị"
+    },
+    "doNotPerform": "Sẽ không thực hiện ?",
+    "quantity": "Số lượng",
+    "priority": {
+      "label": "Độ ưu tiên",
+      "routine": "Theo lịch trình",
+      "urgent": "Cấp bách",
+      "asap": "Sớm nhất có thể",
+      "stat": "Ngay bây giờ"
+    },
+    "asNeeded": "Chỉ sử dụng khi cần ?",
+    "authoredOn": "Yêu cầu lúc",
+    "reason": "Lý do",
+    "occurrence": {
+      "label": "Tần suất xảy ra",
+      "type": {
+        "label": "Loại",
+        "dateTime": "Ngày giờ",
+        "period": "Trong khoảng",
+        "timing": "Theo chu kỳ"
+      },
+      "timing": {
+        "isRepeat": "Có lặp lại ?",
+        "label": "Lặp lại mỗi",
+        "s": "Giây",
+        "min": "Phút",
+        "h": "Giờ",
+        "d": "Ngày",
+        "wk": "Tuần",
+        "mo": "Tháng",
+        "a": "Năm"
+      }
+    },
+    "requester": {
+      "label": "Người yêu cầu",
+      "name": "Tên",
+      "resource": {
+        "label": "Người/Thiết bị gửi yêu cầu",
+        "device": "Thiết bị",
+        "practitioner": "Nhân viên y tế",
+        "organization": "Tổ chức"
+      }
+    },
+    "basedOn": {
+      "label": "Dựa trên",
+      "desc": "Kế hoạch/đề xuất/yêu cầu được thực hiện theo yêu cầu này."
+    }
+  },
+  "modelNumber": "Số hiệu thiết bị",
+  "humanName": {
+    "prefix": "Tiền tố",
+    "family": "Họ",
+    "given": "Tên đệm và tên",
+    "suffix": "Hậu tố",
+    "type": {
+      "usual": "Thường gọi",
+      "official": "Chính thức",
+      "temp": "Tạm thời",
+      "nickname": "Biệt danh",
+      "anonymous": "Ẩn danh",
+      "old": "Tên cũ",
+      "maiden": "Tên thời con gái"
+    }
+  },
+  "telecom": {
+    "periodStart": "Sử dụng từ",
+    "periodEnd": "đến",
+    "system": {
+      "phone": "Số điện thoại",
+      "fax": "Số fax",
+      "email": "Email",
+      "pager": "Máy nhắn tin",
+      "url": "Trang web",
+      "sms": "Tin nhắn SMS",
+      "other": "Khác"
+    },
+    "use": {
+      "home": "Nhà",
+      "work": "Cơ quan",
+      "temp": "Tạm thời",
+      "old": "Cũ",
+      "mobile": "Di động"
+    }
+  },
+  "address": {
+    "purpose": {
+      "name": "Mục đích sử dụng",
+      "home": "Hiện tại",
+      "permanentResidence": "Hộ khẩu thường chú",
+      "birthPlace": "Nơi sinh",
+      "work": "Làm việc",
+      "temp": "Tạm thời",
+      "old": "Cũ",
+      "billing": "Thanh toán"
+    },
+    "type": {
+      "name": "Loại",
+      "postal": "Bưu điện",
+      "physical": "Vật lý",
+      "both": "Cả hai"
+    },
+    "details": "Địa chỉ",
+    "province": "Tỉnh/TP",
+    "district": "Quận/huyện",
+    "ward": "Phường/xã",
+    "street": "Số nhà, đường phố",
+    "text": "Chi tiết",
+    "postalCode": "Mã bưu chính"
+  },
+  "contact": {
+    "name": "Người liên hệ",
+    "periodStart": "Từ ngày",
+    "periodEnd": "Đến ngày",
+    "managingOrg": "Tổ chức quản lý",
+    "managingOrgDesc": "Tổ chức chịu trách nhiệm cung cấp và bảo trì địa điểm.",
+    "purpose": {
+      "BILL": "Thanh toán",
+      "ADMIN": "Hành chính",
+      "HR": "Nhân lực",
+      "PAYOR": "Quyết toán",
+      "PATINF": "Bệnh nhân",
+      "PRESS": "Báo chí"
+    },
+    "getAddressOfUnit": "Lấy địa chỉ của đơn vị"
+  },
+  "communication": {
+    "preferred": "Ưu tiên"
+  },
+  "qualification": {
+    "type": {
+      "PN": "Điều dưỡng thực hành nâng cao",
+      "AAS": "Bằng cao đẳng liên kết khoa học ứng dụng",
+      "AA": "Bằng cao đẳng liên kết nghệ thuật",
+      "ABA": "Bằng cao đẳng quản trị kinh doanh",
+      "AE": "Bằng cao đẳng kỹ sư",
+      "AS": "Bằng cao đẳng liên kết khoa học",
+      "BA": "Cử nhân Nghệ thuật",
+      "BBA": "Cử nhân quản trị kinh doanh",
+      "BE": "Bằng kỹ sư",
+      "BFA": "Cử nhân Mỹ thuật",
+      "BN": "Cử nhân điều dưỡng",
+      "BS": "Cử nhân khoa học",
+      "BSL": "Cử nhân Khoa học - Luật",
+      "BSN": "Cử nhân Khoa học - Điều dưỡng",
+      "BT": "Cử Nhân Thần Học",
+      "CER": "Giấy chứng nhận",
+      "CANP": "Chứng nhận hành nghề y tế",
+      "CMA": "Chứng chỉ trợ giúp chăm sóc cá nhân",
+      "CNP": "Chứng chỉ y tá hành nghề",
+      "CNM": "Chứng chỉ hộ sinh",
+      "CRN": "Chứng chỉ điều dưỡng",
+      "CNS": "Chứng chỉ chuyên viên điều dưỡng",
+      "CPNP": "Chứng chỉ y tá nhi khoa",
+      "CTR": "Chứng chỉ đăng ký ung thư",
+      "DIP": "Bằng cấp",
+      "DBA": "Tiến sĩ quản trị kinh doanh",
+      "DED": "Tiến sĩ giáo dục",
+      "PharmD": "Tiến sĩ dược",
+      "PHE": "Tiến sỹ kỹ thuật",
+      "PHD": "Tiến sĩ Triết học",
+      "PHS": "Tiến sĩ khoa học",
+      "MD": "Tiến sĩ y khoa",
+      "DO": "Bác sĩ xương khớp",
+      "EMT": "Kỹ thuật viên y tế khẩn cấp",
+      "EMTP": "Chuyên viên cấp cứu ngoài bệnh viện",
+      "FPNP": "Điều dưỡng gia đình",
+      "HS": "Tốt nghiệp THPT",
+      "JD": "Tiến sĩ Luật",
+      "MA": "Thạc sĩ nghệ thuật",
+      "MBA": "Thạc sĩ Quản trị Kinh doanh",
+      "MCE": "Thạc sĩ Kỹ thuật Xây dựng",
+      "MDI": "Thạc sĩ thần học",
+      "MED": "Thạc sĩ Giáo dục",
+      "MEE": "Thạc sĩ Kỹ thuật Điện",
+      "ME": "Thạc sĩ Kỹ thuật",
+      "MFA": "Thạc sĩ mỹ thuật",
+      "MME": "Thạc sĩ Kỹ thuật Cơ khí",
+      "MS": "Thạc sĩ khoa học",
+      "MSL": "Thạc sĩ Khoa học - Luật",
+      "MSN": "Thạc sĩ Khoa học - Điều dưỡng",
+      "MTH": "Thạc sĩ thần học",
+      "MDA": "Trợ lý y tế",
+      "MT": "Kỹ thuật viên y tế",
+      "NG": "Không tốt nghiệp",
+      "NP": "Điều dưỡng thực hành",
+      "PA": "Phụ tá bác sĩ",
+      "RMA": "Trợ lý y tế đã đăng ký",
+      "RN": "Y tá đã đăng ký",
+      "RPH": "Dược sĩ đã đăng ký",
+      "SEC": "Chứng chỉ thư ký",
+      "TS": "Tốt nghiệp trường Nghề"
+    },
+    "periodStart": "Ngày cấp",
+    "periodEnd": "Hết hạn"
+  },
+  "owner": "Sở hữu bởi"
+}

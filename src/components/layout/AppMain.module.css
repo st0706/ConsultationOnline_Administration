@@ -1,0 +1,14 @@
+.main {
+  min-height: 90vh;
+  min-height: calc(100vh - 120px);
+
+  @mixin light {
+    background-color: #f5f6f8;
+    --separator-border: #000000;
+  }
+
+  @mixin dark {
+    background-color: var(--mantine-color-dark-6);
+    --separator-border: #ffffff;
+  }
+}

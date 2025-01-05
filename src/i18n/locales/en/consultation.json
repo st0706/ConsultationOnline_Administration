@@ -1,0 +1,167 @@
+{
+  "appointment": {
+    "content": "Meeting content",
+    "consultationContent": "Consultation content",
+    "administrativeSection": "I. Administrative Section",
+    "diseaseProgression": "II. Disease Progression",
+    "name": "Appointment",
+    "info": "Appointment information",
+    "general": "General appointment information",
+    "nameLabel": "Name",
+    "conclusion": {
+      "name": "Conclusion",
+      "content": "Content",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at",
+      "createdBy": "Created by"
+    },
+    "status": {
+      "name": "Meeting Status",
+      "proposed": "Proposed",
+      "fulfilled": "Fulfilled",
+      "cancelled": "Cancelled",
+      "upcoming": "Upcoming",
+      "inProgress": "In progress",
+      "approvedLevel1": "Approved Level 1",
+      "approvedLevel2": "Approved Level 2"
+    },
+    "specialty": "Doctor's Specialty",
+    "appointmentType": {
+      "name": "Meeting Type",
+      "routine": "Routine Appointment",
+      "walkin": "Walk-in Visit",
+      "checkup": "Routine Check-up",
+      "followup": "Follow-up from Previous Appointment",
+      "emergency": "Emergency Appointment"
+    },
+    "priority": {
+      "name": "Priority",
+      "ASAP": "As Soon As Possible",
+      "callback": "Callback",
+      "elective": "Elective",
+      "emergency": "Emergency",
+      "preop": "Pre-operation",
+      "needed": "As Needed",
+      "routine": "Routine",
+      "rushReporting": "Rush Reporting",
+      "stat": "Highest Priority",
+      "timingCritical": "Timing Critical",
+      "directed": "Directed",
+      "urgent": "Urgent",
+      "scheduling": "Scheduling",
+      "CSR": "Contact Recipient for Scheduling"
+    },
+    "reason": {
+      "name": "Reason"
+    },
+    "start": "Start time",
+    "end": "End time",
+    "created": "Creation time",
+    "supportingInformation": "Supporting Information for the Meeting",
+    "subject": {
+      "name": "Patient's name",
+      "birthDate": "Date of birth",
+      "gender": "Gender",
+      "ethnic": "Ethnicity",
+      "nationality": "Nationality",
+      "occupation": "Occupation",
+      "admissionNumber": "Hospital admission number",
+      "insuranceNumber": "Health insurance number",
+      "admissionTime": "Time of admission",
+      "admissionDepartment": "Department",
+      "requestConsultation": "Request consultation",
+      "summaryMedicalHistory": "Summary of medical history",
+      "conditionAdmission": "Condition upon admission",
+      "diagnose": "Diagnosis (referral level, outpatient department, treatment department)",
+      "summary": "Summary of disease progression, treatment process, and care in the department"
+    },
+    "participant": {
+      "name": "Participant",
+      "labelName": "Participant name",
+      "type": {
+        "name": "Participant Role",
+        "ADMIN": "ADMIN",
+        "participant": "Participant",
+        "secretary": "Secretary"
+      },
+      "periodStart": "Start time",
+      "periodEnd": "End time",
+      "actor": "Meeting Attendee",
+      "require": "Is Participation Required?",
+      "required": "Participation is required",
+      "notRequired": "Participation is not required",
+      "status": "Participation Status",
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "pending": "Pending",
+      "needs-action": "Needs-action"
+    },
+    "description": "Description about the meeting",
+    "note": "Note",
+    "virtualService": {
+      "name": "Virtual service",
+      "channelType": {
+        "name": "Channel type",
+        "zoom": "Zoom",
+        "ms-teams": "Ms-teams",
+        "whatsapp": "Whatsapp"
+      },
+      "additionalInfo": "Additional Infomation",
+      "maxParticipants": "Max participants",
+      "sessionKey": "Session key"
+    },
+    "list": "List of participants",
+    "documentTime": "Time",
+    "nameFile": "Name",
+
+    "approvedLevel1": {
+      "label": "Approved",
+      "description": "First level approval"
+    },
+    "approvedLevel2": {
+      "label": "Approved",
+      "description": "Second level approval"
+    },
+    "upcoming": {
+      "label": "Upcoming",
+      "description": "The consultation will start soon"
+    },
+    "inProgress": {
+      "label": "In progress",
+      "description": "The consultation is in progress"
+    },
+    "fulfilled": {
+      "label": "Completed",
+      "description": "The consultation has been completed"
+    },
+    "cancelled": {
+      "label": "Cancelled",
+      "description": "The consultation has been cancelled"
+    },
+    "proposed": {
+      "label": "Proposed",
+      "description": "The consultation has been initiated"
+    },
+    "role": {
+      "appointment.admin": "Administrator",
+      "appointment.approve_level_1": "Level 1 Approver",
+      "appointment.approve_level_2": "Level 2 Approver",
+      "appointment.moderator": "Moderator",
+      "appointment.participant": "Participant"
+    }
+  },
+  "noticeTime": "The end time must be after the start time",
+  "invalidStatus": "Invalid appointment status",
+  "recordId": "Record ID",
+  "creationTime": "Creation time",
+  "fileSize": "Size",
+  "record": "Record",
+  "relatedDocuments": "Related documents",
+  "approve": "Approve",
+  "revoke": "Revoke approve",
+  "endConsultation": "End Consultation",
+  "staff": "Staff",
+  "open-dicom": "Open Dicom Viewer",
+  "propose": "Propose the consultation",
+  "FORBIDDEN": "You do not have permission to perform this action !"
+}

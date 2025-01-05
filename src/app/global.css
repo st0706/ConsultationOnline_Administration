@@ -1,0 +1,12 @@
+.mantine-InputWrapper-label {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.mantine-InputWrapper-description {
+  margin-bottom: 8px;
+}
+
+.mrt-global-filter-text-input {
+  margin-left: 0 !important;
+}
