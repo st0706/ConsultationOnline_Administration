@@ -28,7 +28,8 @@ export const env = createEnv({
     NEXT_PUBLIC_PLUGNMEET_API_SECRET: z.string().optional(),
     NEXT_PUBLIC_LK_TOKEN_ENDPOINT: z.string().optional(),
     NEXT_PUBLIC_PLUG_N_MEET_SERVER_URL: z.string().optional(),
-    NEXT_PUBLIC_PACS_URL: z.string().optional()
+    NEXT_PUBLIC_PACS_URL: z.string().optional(),
+    NEXT_PUBLIC_CONSULTATION_BUCKET_URL: z.string().optional()
   },
 
   /**
@@ -49,7 +50,8 @@ export const env = createEnv({
     NEXT_PUBLIC_PLUGNMEET_API_SECRET: process.env.NEXT_PUBLIC_PLUGNMEET_API_SECRET,
     NEXT_PUBLIC_LK_TOKEN_ENDPOINT: process.env.NEXT_PUBLIC_LK_TOKEN_ENDPOINT,
     NEXT_PUBLIC_PLUG_N_MEET_SERVER_URL: process.env.NEXT_PUBLIC_PLUG_N_MEET_SERVER_URL,
-    NEXT_PUBLIC_PACS_URL: process.env.NEXT_PUBLIC_PACS_URL
+    NEXT_PUBLIC_PACS_URL: process.env.NEXT_PUBLIC_PACS_URL,
+    NEXT_PUBLIC_CONSULTATION_BUCKET_URL: process.env.NEXT_PUBLIC_CONSULTATION_BUCKET_URL
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially

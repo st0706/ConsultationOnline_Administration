@@ -59,7 +59,7 @@ interface FileIconProps {
 
 const DetailAppointment = () => {
   const supabase = createClient();
-  const consultationBucketUrl = "https://supabase.anphat.ai.vn/storage/v1/object/public/consultation/";
+  const consultationBucketUrl = env.NEXT_PUBLIC_CONSULTATION_BUCKET_URL;
   const tree = useTree();
   const params = useParams();
   const { notifyResult, notify } = useNotify();
@@ -616,7 +616,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData.appointmentType as any).text
+                    {appointmentData.appointmentType
                       ? t(`appointment.appointmentType.${(appointmentData.appointmentType as any)!.text}`)
                       : ""}
                   </Text>
@@ -629,7 +629,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData.priority as any).text
+                    {appointmentData.priority
                       ? t(`appointment.priority.${(appointmentData.priority as any)!.text}`)
                       : ""}
                   </Text>
@@ -653,7 +653,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {localeDateTime(appointmentData.end!, i18n.language)}
+                    {appointmentData.end ? localeDateTime(appointmentData.end!, i18n.language) : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -664,11 +664,13 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData.specialty as any)
-                      ?.map((specialty) => {
-                        return specialty.text;
-                      })
-                      .join(", ")}
+                    {appointmentData.specialty
+                      ? (appointmentData.specialty as any)
+                          .map((specialty) => {
+                            return specialty.text;
+                          })
+                          .join(", ")
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -679,11 +681,13 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData.reason as any)
-                      ?.map((reason) => {
-                        return reason.concept.text;
-                      })
-                      .join(", ")}
+                    {appointmentData.reason
+                      ? (appointmentData.reason as any)
+                          .map((reason) => {
+                            return reason.concept.text;
+                          })
+                          .join(", ")
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -694,7 +698,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {appointmentData.description}
+                    {appointmentData.description ? appointmentData.description : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -705,7 +709,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData.note as any).text}
+                    {appointmentData.note ? (appointmentData.note as any).text : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -723,7 +727,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).name}
+                    {appointmentData.subject ? (appointmentData?.subject as any).name : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -734,7 +738,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {localeDate((appointmentData?.subject as any).birthDate, i18n.language)}
+                    {appointmentData.subject
+                      ? localeDate((appointmentData?.subject as any).birthDate, i18n.language)
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -745,9 +751,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).gender
-                      ? tH(`gender.${(appointmentData?.subject as any).gender}`)
-                      : ""}
+                    {appointmentData.subject ? tH(`gender.${(appointmentData.subject as any).gender}`) : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -758,7 +762,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).ethnic}
+                    {appointmentData.subject ? (appointmentData.subject as any).ethnic : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -769,7 +773,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).nationality}
+                    {appointmentData.subject ? (appointmentData.subject as any).nationality : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -780,7 +784,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).occupation}
+                    {appointmentData.subject ? (appointmentData?.subject as any).occupation : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -791,7 +795,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).address?.city}
+                    {appointmentData.subject && (appointmentData?.subject as any).address
+                      ? (appointmentData?.subject as any).address?.city
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -802,7 +808,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).address?.district}
+                    {appointmentData.subject && (appointmentData?.subject as any).address
+                      ? (appointmentData?.subject as any).address?.district
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -813,7 +821,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).address?.ward}
+                    {appointmentData.subject && (appointmentData?.subject as any).address
+                      ? (appointmentData?.subject as any).address?.ward
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -824,7 +834,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).address?.details}
+                    {appointmentData.subject && (appointmentData?.subject as any).address
+                      ? (appointmentData?.subject as any).address?.details
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -835,7 +847,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).admissionNumber}
+                    {appointmentData.subject ? (appointmentData?.subject as any).admissionNumber : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -846,7 +858,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).insuranceNumber}
+                    {appointmentData.subject ? (appointmentData?.subject as any).insuranceNumber : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -857,7 +869,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {localeDateTime((appointmentData?.subject as any).admissionTime, i18n.language)}
+                    {appointmentData.subject
+                      ? localeDateTime((appointmentData.subject as any).admissionTime, i18n.language)
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -868,7 +882,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).admissionDepartment}
+                    {appointmentData.subject ? (appointmentData?.subject as any).admissionDepartment : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -879,7 +893,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).requestConsultation}
+                    {appointmentData.subject ? (appointmentData?.subject as any).requestConsultation : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -893,7 +907,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).summaryMedicalHistory}
+                    {appointmentData.subject ? (appointmentData?.subject as any).summaryMedicalHistory : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -904,7 +918,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).conditionAdmission}
+                    {appointmentData.subject ? (appointmentData?.subject as any).conditionAdmission : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -915,7 +929,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).diagnose}
+                    {appointmentData.subject ? (appointmentData?.subject as any).diagnose : ""}
                   </Text>
                 </Text>
               </Grid.Col>
@@ -926,7 +940,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {(appointmentData?.subject as any).summary}
+                    {appointmentData.subject ? (appointmentData?.subject as any).summary : ""}
                   </Text>
                 </Text>
               </Grid.Col>
