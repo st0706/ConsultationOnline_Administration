@@ -616,7 +616,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {appointmentData.appointmentType
+                    {appointmentData?.appointmentType && (appointmentData.appointmentType as any)?.text
                       ? t(`appointment.appointmentType.${(appointmentData.appointmentType as any)!.text}`)
                       : ""}
                   </Text>
@@ -629,7 +629,7 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {appointmentData.priority
+                    {appointmentData?.priority && (appointmentData.appointmentType as any)?.priority
                       ? t(`appointment.priority.${(appointmentData.priority as any)!.text}`)
                       : ""}
                   </Text>
@@ -751,7 +751,9 @@ const DetailAppointment = () => {
                   </Text>
                   {"\u00A0\u00A0\u00A0\u00A0"}
                   <Text span fw={500}>
-                    {appointmentData.subject ? tH(`gender.${(appointmentData.subject as any).gender}`) : ""}
+                    {appointmentData?.subject && (appointmentData?.subject as any).gender
+                      ? tH(`gender.${(appointmentData.subject as any).gender}`)
+                      : ""}
                   </Text>
                 </Text>
               </Grid.Col>

@@ -7,7 +7,7 @@ export const env = createEnv({
    * isn't built with invalid env vars.
    */
   server: {
-    appUrl: z.string().optional().default("http://localhost:3000"),
+    appUrl: z.string().optional().default("http://localhost:3001"),
     nodeEnv: z.enum(["development", "test", "production"]).default("development"),
     vercelURL: z.string().optional(),
     supabaseServiceRoleKey: z.string().optional(),

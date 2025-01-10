@@ -9,7 +9,7 @@ export const getURL = (path: string = "") => {
         env.NEXT_PUBLIC_VERCEL_URL && env.NEXT_PUBLIC_VERCEL_URL.trim() !== ""
         ? env.NEXT_PUBLIC_VERCEL_URL
         : // If neither is set, default to localhost for local development.
-          "http://localhost:3000/";
+          "http://localhost:3001/";
 
   // Trim the URL and remove trailing slash if exists.
   url = url.replace(/\/+$/, "");

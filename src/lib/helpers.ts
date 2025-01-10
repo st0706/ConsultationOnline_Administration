@@ -8,7 +8,7 @@ export function getBaseUrl() {
   if (env.NEXT_PUBLIC_VERCEL_URL) return env.NEXT_PUBLIC_VERCEL_URL;
   if (env.vercelURL) return env.vercelURL;
   if (env.appUrl) return env.appUrl;
-  return "http://localhost:3000";
+  return "http://localhost:3001";
 }
 
 export function getErrorResponse(status: number = 500, message: string, errors: ZodError | null = null) {
