@@ -98,7 +98,8 @@
     "pressEnterToAdd": "Press Enter to add",
     "decline": "Decline",
     "accept": "Accept",
-    "endConsultation": "end"
+    "endConsultation": "end",
+    "download": "Download"
   },
   "confirmAction": {
     "approve": "The approval status of the consultation will be changed",

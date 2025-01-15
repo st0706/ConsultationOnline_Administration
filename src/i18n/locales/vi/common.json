@@ -97,7 +97,8 @@
     "pressEnterToAdd": "Bấm Enter để thêm mới",
     "decline": "Từ chối",
     "accept": "Chấp nhận",
-    "endConsultation": "Kết thúc"
+    "endConsultation": "Kết thúc",
+    "download": "Tải xuống"
   },
   "confirmAction": {
     "approveConsultation": "Trạng thái phê duyệt của cuộc hội chẩn sẽ được thay đổi",
